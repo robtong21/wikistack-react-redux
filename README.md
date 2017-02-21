@@ -55,7 +55,7 @@ You MAY NOT copy-paste code from the internet or from a prior workshop directly 
 Please ask your junior phase instructor.
 
 ### How will this be graded?
-This project will be evaluated on a pass-fail basis. It is necessary for all of the requirements listed above to met for the project to be considered a pass.
+This project will be evaluated on a pass-fail basis. It is necessary for all of the requirements listed above to be met for the project to be considered a pass.
 
 ### Can I ask instructors for help?
 You may ask instructors to clarify the requirements of the project, and you may also ask instructors if your implementation meets the requirements of the project. You may also ask for help if unexpected errors occur on the **back-end**, or if the project does not install properly.
