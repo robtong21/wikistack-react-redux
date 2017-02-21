@@ -24,6 +24,7 @@ Your task is to make it so that when you submit a new wiki page from `/#/wiki/ad
 ### Technical Requirements
 * The list of wiki pages **must** be contained in a `redux` store
 * You **must** use `react-redux` to connect your React components to your Redux store
+* Any AJAX requests (i.e. any `axios` calls) **must** be in a **thunk**
 
 #### What we are testing
 * Understanding and getting up to speed on a small `react`/`react-router` codebase
