@@ -103,5 +103,6 @@ Page.belongsTo(User, {
 
 module.exports = {
   Page: Page,
-  User: User
+  User: User,
+  db: db
 };

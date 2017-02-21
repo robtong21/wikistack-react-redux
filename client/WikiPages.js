@@ -14,15 +14,10 @@ export default class WikiPages extends Component {
         <hr />
         <ul className="list-unstyled">
           <ul>
-            {
-              [].map(a => {
-                return (
-                  <li>
-                    <a href="">{ page.name }</a>
-                  </li>
-                );
-              })
-            }
+            {/* List each page title in this space */}
+            <li>
+              <a href="">PAGE TITLE GOES HERE</a>
+            </li>
           </ul>
         </ul>
       </div>
