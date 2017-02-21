@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const marked = require('marked');
 
-const db = new Sequelize('postgres://localhost:5432/wikistack', {
+const db = new Sequelize('postgres://localhost:5432/wikistack-react', {
   logging: false
 });
 
