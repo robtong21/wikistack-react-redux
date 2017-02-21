@@ -13,19 +13,23 @@ To begin the project, `npm install` and `npm start`.
 Your task is to make it so that when you submit a new wiki page from `/#/wiki/add`, that page will be saved in the database, and when you navigate to `/#/wiki`, you see a list of all wiki pages in the database (including any that were just added).
 
 ## Project Requirements
+
 ### User Requirements
 * Navigating to `http://localhost:3001/#/wiki` should show a list of all of the wiki pages. The entries in this list **must** persist after a refresh.
 * Navigating to `http://localhost:3001/#/wiki/add` should show a form to add a new wiki page
 * Submitting a (validly filled out) form entry should add a new wiki page to the database
 * Navigating to `http://localhost:3001/#/wiki` AFTER submitting a new wiki page should display the new wiki page in the list (WITHOUT requiring a refresh).
+
 ### Technical Requirements
 * The list of wiki pages **must** be contained in a `redux` store
 * You **must** use `react-redux` to connect your React components to your Redux store
+
 #### What we are testing
 * Understanding and getting up to speed on a small `react`/`react-router` codebase
 * Creating a `redux` store from *scratch* and connecting it to React components using `react-redux`
 * Handling asynchronous data flow in a React/Redux application
 * Independent decision-making in implementing project features
+
 #### What we are NOT testing
 * Writing express routes
 * Writing sequelize models
