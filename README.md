@@ -65,3 +65,8 @@ You may not ask instructors how to implement specific details of the project.
 ### May I work with others?
 Please do not work with anyone else on this project.
 
+### Once I complete the minimum requirements, should I continue to implement more features?
+YES! We welcome and encourage you to continue to implement more features once you have finished with the minimal requirements above - it is excellent practice for the kind of work you will encounter in senior phase.
+
+For this reason, we've kept all of the original HTML template files from wikistack in the project (in the `OLD-views` directory - feel free to use them to continue to expand your work).
+
