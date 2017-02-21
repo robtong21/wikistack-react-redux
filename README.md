@@ -47,23 +47,23 @@ Your task is to make it so that when you submit a new wiki page from `/#/wiki/ad
 ## FAQ
 
 ### What can I use to help me?
-You MAY use any notes that you have taken throughout the course, and any documentation you find online
-
-You MAY NOT copy-paste code from the internet or from a prior workshop directly into the project
+* You MAY use any notes that you have taken throughout the course, and any documentation you find online
+* You MAY NOT copy-paste code from the internet or from a prior workshop directly into the project
 
 ### When is this due?
 Please ask your junior phase instructor.
 
 ### How will this be graded?
-This project will be evaluated on a pass-fail basis. It is necessary for all of the requirements listed above to be met for the project to be considered a pass.
+This project will be evaluated on a pass-fail basis. It is necessary for all of the requirements listed above to be met to your instructor's satisfaction for the project to be considered a pass.
 
 ### Can I ask instructors for help?
-You may ask instructors to clarify the requirements of the project, and you may also ask instructors if your implementation meets the requirements of the project. You may also ask for help if unexpected errors occur on the **back-end**, or if the project does not install properly.
-
-You may not ask instructors how to implement specific details of the project.
+* You may ask instructors to clarify the requirements of the project
+* You may also ask instructors if your implementation meets the requirements of the project
+* You may also ask for help if unexpected errors occur on the **back-end**, or if the project does not install properly
+* You MAY NOT ask instructors how to implement specific details of the project
 
 ### May I work with others?
-Please do not work with anyone else on this project.
+Please **do not** work with anyone else on this project.
 
 ### Once I complete the minimum requirements, should I continue to implement more features?
 YES! We welcome and encourage you to continue to implement more features once you have finished with the minimal requirements above - it is excellent practice for the kind of work you will encounter in senior phase.
