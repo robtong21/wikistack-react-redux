@@ -1,6 +1,6 @@
 const http = require('http');
 const server = http.createServer();
-const models = require('./models').db;
+const db = require('./models').db;
 const Promise = require('bluebird');
 
 server.on('request', require('./app'));
