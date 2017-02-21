@@ -7,10 +7,10 @@ This time, the tables have turned - you'll be working **solely** on the **front-
 ## Your Starting Point
 You will be given part of the original Wikistack application. At first, you will only be able to navigate between `http://localhost:3001/#/wiki` and `http://localhost:3001/#/wiki/add`, which will show a form to add new wiki pages.
 
-To begin the project, `npm install` and `npm start`
+To begin the project, `npm install` and `npm start`.
 
 ## Your Task
-Your task is to make it so that when you submit a new wiki page from `/#/wiki/add`, that page will be saved in the database, and when you navigate to `/#/wiki`, you see a list of all wiki pages in the database.
+Your task is to make it so that when you submit a new wiki page from `/#/wiki/add`, that page will be saved in the database, and when you navigate to `/#/wiki`, you see a list of all wiki pages in the database (including any that were just added).
 
 ## Project Requirements
 ### User Requirements
