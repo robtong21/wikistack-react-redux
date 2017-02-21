@@ -5,7 +5,7 @@ const Promise = require('bluebird');
 
 server.on('request', require('./app'));
 
-db.sync({ force: true })
+db.sync()
   .then(() => {
     server.listen(3001, () => {
       console.log('Server is listening on port 3001!');
