@@ -1,13 +1,39 @@
 import React, { Component } from 'react';
+import { addPage } from '../dispatchers'
+import store from '../index'
 
 export default class AddPage extends Component {
+  constructor(props) {
+    super(props)
+    this.handleSubmit = this.handleSubmit.bind(this)
+  }
+
+  handleSubmit(evt) {
+    evt.preventDefault()
+    const page = {
+      name: evt.target.name.value,
+      email: evt.target.email.value,
+      title: evt.target.title.value,
+      content: evt.target.content.value,
+      status: evt.target.status.value,
+      tags: evt.target.tags.value
+    }
+    console.log("hello!")
+    store.dispatch(addPage(page))
+    evt.target.name.value = ''
+    evt.target.email.value = ''
+    evt.target.title.value = ''
+    evt.target.content.value = ''
+    evt.target.status.value = ''
+    evt.target.tags.value = ''
+  }
 
   render () {
     return (
       <div>
         <h3>Add a Page</h3>
         <hr />
-        <form>
+        <form onSubmit={this.handleSubmit}>
 
           <div className="form-group">
             <label htmlFor="name" className="col-sm-2 control-label">Author Name</label>
